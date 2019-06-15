@@ -27,12 +27,40 @@
   "typings": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "yarn run build && node build/index.js"
+    "start": "yarn run build && node build/index.js",
+    "test": "jest --coverage"
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^24.0.14",
     "@types/node": "^12.0.8",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
     "tslint": "^5.17.0",
     "typescript": "^3.5.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/*.spec.(ts|tsx)"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!**/node_modules/**"
+    ]
   }
 }
