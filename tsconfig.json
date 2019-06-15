@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "allowJs": false,
+      "forceConsistentCasingInFileNames": true,
+      "listEmittedFiles": true,
+      "module": "commonjs",
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "outDir": "./build",
+      "pretty": true,
+      "removeComments": true,
+      "strict": true,
+      "target": "es6"
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

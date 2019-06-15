@@ -1,0 +1,38 @@
+{
+  "name": "jisho",
+  "version": "0.0.0",
+  "description": "GraphQL layer for pokemon api",
+  "keywords": [
+    "jisho",
+    "node",
+    "typescript"
+  ],
+  "homepage": "https://github.com/sam-squared/jisho/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sam-squared/jisho/"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "sam-squared"
+  },
+  "files": [
+    "build/*.*js.map",
+    "build/*.*js",
+    "build/*.d.ts.map",
+    "build/*.d.ts"
+  ],
+  "main": "build/index",
+  "module": "build/index.mjs",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && node build/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
