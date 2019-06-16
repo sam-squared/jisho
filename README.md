@@ -11,6 +11,9 @@ For pokeapi contributors, see https://github.com/orgs/PokeAPI/people
 ## Compiling
 To compile run `yarn build`.
 
+## Linting
+To lint, run `yarn lint`.
+
 ## Running tests
 To execute unit tests run `yarn test`.
 
