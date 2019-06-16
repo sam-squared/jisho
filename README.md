@@ -17,4 +17,7 @@ To lint, run `yarn lint`.
 ## Running tests
 To execute unit tests run `yarn test`.
 
+## Commiting
+To commit, run `yarn commit`, which utilises Commitizen
+
 Unit tests have 100% code coverage enforced.
