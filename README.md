@@ -1,4 +1,7 @@
 # jisho
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sam-squared/jisho.svg)](https://greenkeeper.io/)
+
 TyepScript Client-Side GraphQL library/layer for the Pokemon API (https://pokeapi.co/)
 
 ## License
