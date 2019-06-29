@@ -1,8 +1,12 @@
-# jisho
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/sam-squared/jisho.svg)](https://greenkeeper.io/)
 
-TyepScript Client-Side GraphQL library/layer for the Pokemon API (https://pokeapi.co/)
+[![CircleCI](https://circleci.com/gh/sam-squared/jisho/tree/master.svg?style=svg)](https://circleci.com/gh/sam-squared/jisho/tree/master)
+
+# jisho
+
+TypeScript Client-Side GraphQL library/layer for the Pokemon API (https://pokeapi.co/)
 
 ## License
 Published under a standard mit license (see license.txt)
